@@ -74,7 +74,6 @@ export function SourceIndex({ sources }: { sources: Source[] }) {
     <div className="layout wrap">
       <div className="rail">
         <h1>Sources</h1>
-        <p className="intro">Public sources only.</p>
         <form role="search" onSubmit={(event) => event.preventDefault()}>
           <div className="search">
             <div className="search-row">
@@ -98,7 +97,7 @@ export function SourceIndex({ sources }: { sources: Source[] }) {
               className={query.trim() ? "is-active" : undefined}
             />
           </div>
-          <fieldset aria-describedby="area-note" className={area !== "all" ? "is-narrowed" : undefined}>
+          <fieldset aria-describedby="area-note">
             <legend>Area</legend>
             <div className="areas">
               {options.map((option) => {

@@ -1,6 +1,6 @@
 # Inflect sources
 
-This page is the source appendix of a statistical bulletin, set as a spread on one sheet of warm paper. The Inflect wordmark and the compile date sit on that paper, on the same grid as the footer rule. The left column is the finding aid: the title, a search line, and the areas with their counts. The right column is an alphabetical list. Each source name is the link, the area sits in its own column, and the line under the name says what the source is used for. Poppins is only the title. Inter does the rest, small and tight. Light blue marks a search hit. Pink marks a filter that is narrowing the list. Nothing is a card.
+This page is the source appendix of a statistical bulletin, set as a spread on white. The Inflect wordmark and the compile date sit on the same grid as the footer rule. The left column is the finding aid: the title, a search line, and the areas with their counts. The right column is an alphabetical list. Each source name is the link, the area sits in its own column, and the line under the name says what the source is used for. Poppins is only the title. Inter does the rest, small and tight. Light blue marks a search hit. Crimson marks a hover, a focus, the selected area, and a search that is narrowing the list. Nothing is a card.
 
 ## What it is
 

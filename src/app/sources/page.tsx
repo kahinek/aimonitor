@@ -12,11 +12,12 @@ export default function SourcesPage() {
           <div className="nameplate-inner">
             <a className="logo" href="/sources">
               <Image
-                src="/inflect-wordmark.png"
+                src="/inflect-wordmark.svg"
                 alt="Inflect"
-                width={2046}
-                height={176}
+                width={489}
+                height={162}
                 priority
+                unoptimized
                 className="logo-img"
               />
             </a>

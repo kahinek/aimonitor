@@ -1,11 +1,11 @@
 :root {
-  --paper: #feede7;
+  --paper: #ffffff;
   --ink: #2c2c2c;
   --ink-soft: #535c61;
   --white: #ffffff;
   --accent: #f23861;
   --mark: #ccefff;
-  --hair: #8a8380;
+  --hair: #d9d9d9;
   color-scheme: light;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 ::selection {
-  background: #f7cadc;
+  background: var(--mark);
   color: var(--ink);
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 :focus-visible {
-  outline: 2px solid var(--ink);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
@@ -82,7 +82,7 @@ body {
   gap: 1.5rem;
   padding-top: 1.15rem;
   padding-bottom: 0.9rem;
-  border-bottom: 1px solid var(--ink);
+  border-bottom: 1px solid var(--hair);
 }
 
 .logo {
@@ -92,7 +92,8 @@ body {
 
 .logo-img {
   display: block;
-  width: min(26rem, 100%);
+  width: 9.75rem;
+  max-width: 100%;
   height: auto;
 }
 
@@ -119,19 +120,12 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin: 0 0 1.15rem;
   font-family: var(--font-poppins), "Poppins", sans-serif;
   font-weight: 700;
   font-size: 2rem;
   letter-spacing: -0.03em;
   line-height: 1.05;
-}
-
-.intro {
-  margin: 0.7rem 0 1.2rem;
-  font-size: 0.9375rem;
-  line-height: 1.4;
-  text-wrap: pretty;
 }
 
 .search-row {
@@ -155,7 +149,7 @@ h1 {
   width: 100%;
   margin: 0;
   padding: 0.4rem 0.5rem;
-  border: 1px solid var(--ink);
+  border: 1px solid var(--ink-soft);
   border-radius: 0;
   background: transparent;
   color: var(--ink);
@@ -207,12 +201,8 @@ legend {
 
 .areas input {
   margin: 0;
-  accent-color: var(--ink);
-  flex: 0 0 auto;
-}
-
-fieldset.is-narrowed .areas input {
   accent-color: var(--accent);
+  flex: 0 0 auto;
 }
 
 .areas label:has(input:checked) .area-name {
@@ -245,6 +235,11 @@ fieldset.is-narrowed .areas input {
   text-decoration: underline;
   text-underline-offset: 0.15em;
   cursor: pointer;
+}
+
+.clear:hover,
+.clear:focus-visible {
+  color: var(--accent);
 }
 
 .count {
@@ -289,7 +284,8 @@ fieldset.is-narrowed .areas input {
 
 .entry a:hover,
 .entry a:focus-visible {
-  text-decoration-color: var(--ink);
+  color: var(--accent);
+  text-decoration-color: var(--accent);
 }
 
 .where {
@@ -332,7 +328,7 @@ mark {
 }
 
 .colophon-rule {
-  border-top: 1px solid var(--ink);
+  border-top: 1px solid var(--hair);
   padding-top: 0.85rem;
 }
 
@@ -357,6 +353,11 @@ mark {
 .colophon a {
   color: var(--ink);
   text-underline-offset: 0.15em;
+}
+
+.colophon a:hover,
+.colophon a:focus-visible {
+  color: var(--accent);
 }
 
 @media (max-width: 800px) {
@@ -388,7 +389,7 @@ mark {
 
   .index {
     margin-top: 1.15rem;
-    border-top: 1px solid var(--ink);
+    border-top: 1px solid var(--hair);
     padding-top: 0.9rem;
   }
 
