@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "test": "tsx --tsconfig tsconfig.test.json --test tests/sources.test.tsx"
+    "test": "tsx --tsconfig tsconfig.test.json --test tests/*.tsx"
   },
   "dependencies": {
     "next": "^15.5.4",

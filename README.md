@@ -1,10 +1,10 @@
-# Inflect sources
+# UK AI Monitor
 
-This page is the source appendix of a statistical bulletin, set as a spread on white. The Inflect wordmark and the compile date sit on the same grid as the footer rule. The left column is the finding aid: the title, a search line, and the areas with their counts. The right column is an alphabetical list. Each source name is the link, the area sits in its own column, and the line under the name says what the source is used for. Poppins is only the title. Inter does the rest, small and tight. Light blue marks a search hit. Crimson marks a hover, a focus, the selected area, and a search that is narrowing the list. Nothing is a card.
+This site is a statistical bulletin on one sheet of white: four pages, one masthead, no cards. The Inflect wordmark sits with Overview, Compare, How it works and Sources. Poppins is only the page title. Inter does the rest, small and tight. Crimson marks a measured figure, the current page, a hover or a focus. A lighter crimson is only the fill of a partly measured block. Grey hatching marks what is not measured. Light blue marks a search hit on the sources page. Nothing is a card, and nothing is green.
 
 ## What it is
 
-A single page listing the 23 public sources behind the UK AI Monitor prototype's figures, republished for [Inflect](https://inflecthq.io). It is not an official statistic.
+The UK AI Monitor prototype, republished for [Inflect](https://inflecthq.io): an overview of 26 indicators, a country comparison, a method note, and the 23 public sources. It is not an official statistic.
 
 Search matches the source name and the indicators it is used for. The area filter follows the five indicator areas, plus country comparison for sources that only support the cross-country figures.
 
@@ -18,7 +18,7 @@ npm test
 npm run dev
 ```
 
-Open `/sources`. `/` redirects there.
+Open `/` for the overview. Compare is `/compare`, how it works is `/method`, and sources is `/sources`.
 
 ## Deploy on Vercel
 

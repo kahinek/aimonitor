@@ -74,6 +74,10 @@ export function SourceIndex({ sources }: { sources: Source[] }) {
     <div className="layout wrap">
       <div className="rail">
         <h1>Sources</h1>
+        <p className="intro">
+          Every figure on this site comes from a public source. Where a figure is derived or reported
+          second-hand, the indicator says so.
+        </p>
         <form role="search" onSubmit={(event) => event.preventDefault()}>
           <div className="search">
             <div className="search-row">

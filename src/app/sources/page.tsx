@@ -1,47 +1,18 @@
-import Image from "next/image";
+import type { Metadata } from "next";
 import { SourceIndex } from "@/components/SourceIndex";
 import { getSources } from "@/lib/sources";
+
+export const metadata: Metadata = {
+  title: "Sources",
+  description: "The public sources behind every figure in the UK AI Monitor.",
+};
 
 export default function SourcesPage() {
   const sources = getSources();
 
   return (
-    <>
-      <header className="nameplate">
-        <div className="wrap">
-          <div className="nameplate-inner">
-            <a className="logo" href="/sources">
-              <Image
-                src="/inflect-wordmark.svg"
-                alt="Inflect"
-                width={489}
-                height={162}
-                priority
-                unoptimized
-                className="logo-img"
-              />
-            </a>
-            <p className="edition">
-              Compiled <time dateTime="2026-10-20">20 October 2026</time>
-            </p>
-          </div>
-        </div>
-      </header>
-      <main id="main">
-        <SourceIndex sources={sources} />
-      </main>
-      <footer className="wrap colophon">
-        <div className="colophon-rule">
-          <p>
-            Figures come from public sources, compiled{" "}
-            <time dateTime="2026-10-20">20 October 2026</time> by the{" "}
-            <a href="https://aimonitor.uk" rel="noreferrer">
-              UK AI Monitor prototype
-            </a>
-            . Not an official statistic, and not a government publication.
-          </p>
-        </div>
-      </footer>
-    </>
+    <main id="main">
+      <SourceIndex sources={sources} />
+    </main>
   );
 }

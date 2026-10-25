@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Poppins } from "next/font/google";
+import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import "./globals.css";
 
 const inter = Inter({
@@ -17,9 +18,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Sources · Inflect",
+  title: {
+    default: "UK AI Monitor",
+    template: "%s · UK AI Monitor",
+  },
   description:
-    "Public sources for the UK AI figures, compiled 20 October 2026. Not an official statistic.",
+    "What the UK can and can't yet measure about AI use and its impact: 26 indicators from access to system effects, with the latest public figures.",
 };
 
 export const viewport: Viewport = {
@@ -35,7 +39,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a className="skip" href="#main">
           Skip to content
         </a>
+        <SiteHeader />
         {children}
+        <SiteFooter />
       </body>
     </html>
   );
