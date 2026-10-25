@@ -1,0 +1,976 @@
+{
+ "indicators": [
+  {
+   "id": "a1",
+   "area": 1,
+   "area_name": "Access and readiness",
+   "indicator": "Gigabit connectivity",
+   "definition": "Share of UK homes able to get gigabit-capable broadband",
+   "uk_figure": "89% of homes (Jan 2026)",
+   "status": "Available",
+   "measures_use": "No",
+   "source": "Ofcom Connected Nations, Spring 2026, as reported by ISPreview",
+   "source_url": "https://www.ispreview.co.uk/index.php/2026/05/gigabit-broadband-covers-89-percent-of-uk-premises-ofcom-spring-2026-data.html",
+   "note": "Full fibre reaches 82% of homes."
+  },
+  {
+   "id": "a2",
+   "area": 1,
+   "area_name": "Access and readiness",
+   "indicator": "AI supply base",
+   "definition": "UK companies whose activity is AI, from the government's AI sector study",
+   "uk_figure": "5,862 AI firms (2024)",
+   "status": "Available",
+   "measures_use": "No",
+   "source": "DSIT Artificial Intelligence sector study 2024 (Sep 2025)",
+   "source_url": "https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2024/artificial-intelligence-sector-study-2024",
+   "note": "Up 58% on 2023. Annual, roughly a year in arrears."
+  },
+  {
+   "id": "a3",
+   "area": 1,
+   "area_name": "Access and readiness",
+   "indicator": "AI skills training",
+   "definition": "Workers trained in AI skills against the national ambition",
+   "uk_figure": "Target: 7.5 million workers by 2030",
+   "status": "Target only",
+   "measures_use": "No",
+   "source": "DSIT and industry AI Skills Partnership (Jun 2025)",
+   "source_url": "https://www.gov.uk/government/news/tech-giants-join-government-to-kick-off-plans-to-boost-british-worker-ai-skills",
+   "note": "No public progress measure found."
+  },
+  {
+   "id": "a4",
+   "area": 1,
+   "area_name": "Access and readiness",
+   "indicator": "Organisations with an AI policy",
+   "definition": "Share of organisations with a written AI policy or governance model",
+   "uk_figure": "",
+   "status": "Needs survey",
+   "measures_use": "No",
+   "source": "Could be added to ONS BICS",
+   "source_url": "",
+   "note": "Not measured in official statistics."
+  },
+  {
+   "id": "a5",
+   "area": 1,
+   "area_name": "Access and readiness",
+   "indicator": "AI licences held",
+   "definition": "AI seats and licences held by organisations, by sector",
+   "uk_figure": "",
+   "status": "Needs data-sharing",
+   "measures_use": "No",
+   "source": "Vendor aggregates or a firm panel (proposed)",
+   "source_url": "",
+   "note": "Licence counts sit in vendor admin consoles."
+  },
+  {
+   "id": "u1",
+   "area": 2,
+   "area_name": "Use",
+   "indicator": "Businesses using AI",
+   "definition": "Share of businesses using at least one AI technology",
+   "uk_figure": "30% of businesses (Sep 2026)",
+   "status": "Available",
+   "measures_use": "Yes",
+   "source": "ONS Business Insights and Conditions Survey, wave 165",
+   "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+   "note": "38% of firms with 10+ employees. Official statistics in development; asked regularly since Sep 2023."
+  },
+  {
+   "id": "u2",
+   "area": 2,
+   "area_name": "Use",
+   "indicator": "Adults using AI",
+   "definition": "Share of adults in Great Britain who knowingly used AI in the past 12 months",
+   "uk_figure": "About 67% (Jun 2026)",
+   "status": "Available",
+   "measures_use": "Yes",
+   "source": "ONS Opinions and Lifestyle Survey, June 2026",
+   "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026",
+   "note": "Derived: 33% said they had not knowingly used AI. Great Britain, not UK."
+  },
+  {
+   "id": "u3",
+   "area": 2,
+   "area_name": "Use",
+   "indicator": "Working-age population using AI (telemetry)",
+   "definition": "Share of people aged 15–64 who used a generative AI product in the quarter",
+   "uk_figure": "43.7% (Q2 2026)",
+   "status": "Available",
+   "measures_use": "Yes",
+   "source": "Microsoft AI Diffusion Report, Q2 2026",
+   "source_url": "https://github.com/microsoft/ai-diffusion-report",
+   "note": "Vendor estimate from device telemetry; method differs from the surveys."
+  },
+  {
+   "id": "u4",
+   "area": 2,
+   "area_name": "Use",
+   "indicator": "Public bodies deploying AI",
+   "definition": "Share of central government bodies that had deployed AI",
+   "uk_figure": "37% of bodies (autumn 2023)",
+   "status": "Partial",
+   "measures_use": "Yes",
+   "source": "National Audit Office survey of 87 bodies (Mar 2024)",
+   "source_url": "https://www.nao.org.uk/wp-content/uploads/2024/03/use-of-artificial-intelligence-in-government-summary.pdf",
+   "note": "One-off and now dated."
+  },
+  {
+   "id": "u5",
+   "area": 2,
+   "area_name": "Use",
+   "indicator": "Public sector algorithmic tools disclosed",
+   "definition": "Records published under the Algorithmic Transparency Recording Standard",
+   "uk_figure": "59 records (May 2025)",
+   "status": "Partial",
+   "measures_use": "Yes",
+   "source": "GOV.UK Data in Government blog",
+   "source_url": "https://dataingovernment.blog.gov.uk/2025/05/08/making-the-algorithmic-transparency-recording-standard-atrs-mandatory-across-government/",
+   "note": "Mandatory for central government; disclosure, not a count of all use."
+  },
+  {
+   "id": "u6",
+   "area": 2,
+   "area_name": "Use",
+   "indicator": "Active users as a share of licences",
+   "definition": "How many licensed AI seats are actually used",
+   "uk_figure": "",
+   "status": "Needs data-sharing",
+   "measures_use": "Yes",
+   "source": "Vendor aggregates or a firm panel (proposed)",
+   "source_url": "",
+   "note": "The gap between bought and used is itself a finding."
+  },
+  {
+   "id": "u7",
+   "area": 2,
+   "area_name": "Use",
+   "indicator": "Depth of use",
+   "definition": "Usage per active user, by function",
+   "uk_figure": "",
+   "status": "Needs data-sharing",
+   "measures_use": "Yes",
+   "source": "Vendor aggregates or a firm panel (proposed)",
+   "source_url": "",
+   "note": "Tokens can signal intensity, not value."
+  },
+  {
+   "id": "t1",
+   "area": 3,
+   "area_name": "Task mix",
+   "indicator": "What businesses use AI for",
+   "definition": "Share of firms (10+ employees) using each AI technology",
+   "uk_figure": "Text generation 21%; visual content 19% (Sep 2026)",
+   "status": "Available",
+   "measures_use": "Yes",
+   "source": "ONS Business Insights and Conditions Survey",
+   "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+   "note": "Both up about 15 points since Sep 2023."
+  },
+  {
+   "id": "t2",
+   "area": 3,
+   "area_name": "Task mix",
+   "indicator": "Where adults use AI",
+   "definition": "Share of adults using AI in each part of life",
+   "uk_figure": "Work or education 41%; home 27%; hobbies 23% (Jun 2026)",
+   "status": "Available",
+   "measures_use": "Yes",
+   "source": "ONS Opinions and Lifestyle Survey, June 2026",
+   "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026",
+   "note": "Great Britain."
+  },
+  {
+   "id": "t3",
+   "area": 3,
+   "area_name": "Task mix",
+   "indicator": "Roles most affected",
+   "definition": "Roles most affected in firms (10+ employees) using AI",
+   "uk_figure": "Administrative and clerical 38% (Sep 2026)",
+   "status": "Available",
+   "measures_use": "Yes",
+   "source": "ONS Business Insights and Conditions Survey",
+   "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+   "note": "Creative and design roles next, at 24%."
+  },
+  {
+   "id": "t4",
+   "area": 3,
+   "area_name": "Task mix",
+   "indicator": "Augmentation vs automation",
+   "definition": "Balance between AI assisting people and AI completing tasks alone",
+   "uk_figure": "Not published for the UK",
+   "status": "Not covered",
+   "measures_use": "Yes",
+   "source": "Anthropic Economic Index (global and country patterns)",
+   "source_url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+   "note": "No UK-specific figure found."
+  },
+  {
+   "id": "o1",
+   "area": 4,
+   "area_name": "Outcomes",
+   "indicator": "Time saved in real use",
+   "definition": "Time saved per user in a large trial",
+   "uk_figure": "26 minutes a day, self-reported (late 2024)",
+   "status": "Partial",
+   "measures_use": "No",
+   "source": "Cross-government Microsoft 365 Copilot experiment, 20,000 licences (Jun 2025)",
+   "source_url": "https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report/microsoft-365-copilot-experiment-cross-government-findings-report-html",
+   "note": "Self-reported ranges; one tool, one quarter."
+  },
+  {
+   "id": "o2",
+   "area": 4,
+   "area_name": "Outcomes",
+   "indicator": "Productivity gains in firms using AI",
+   "definition": "Measured change in output per worker in firms that adopt AI",
+   "uk_figure": "",
+   "status": "Needs survey",
+   "measures_use": "No",
+   "source": "Firm-level linking of BICS to productivity data (proposed)",
+   "source_url": "",
+   "note": "The Bank of England's Decision Maker Panel asks firms about AI; not checked here."
+  },
+  {
+   "id": "o3",
+   "area": 4,
+   "area_name": "Outcomes",
+   "indicator": "Public service outcomes",
+   "definition": "Processing times and service quality where government uses AI",
+   "uk_figure": "",
+   "status": "Needs data-sharing",
+   "measures_use": "No",
+   "source": "Departmental service data (proposed)",
+   "source_url": "",
+   "note": "ATRS records describe tools, not results."
+  },
+  {
+   "id": "o4",
+   "area": 4,
+   "area_name": "Outcomes",
+   "indicator": "AI sector output",
+   "definition": "Gross value added by UK AI companies",
+   "uk_figure": "£11.8bn GVA (2024)",
+   "status": "Available",
+   "measures_use": "No",
+   "source": "DSIT Artificial Intelligence sector study 2024 (Sep 2025)",
+   "source_url": "https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2024/artificial-intelligence-sector-study-2024",
+   "note": "Measures AI producers, not the effect of using AI."
+  },
+  {
+   "id": "s1",
+   "area": 5,
+   "area_name": "System effects",
+   "indicator": "Labour productivity",
+   "definition": "Output per hour, change on a year earlier",
+   "uk_figure": "+0.7% (Q2 2026)",
+   "status": "Available",
+   "measures_use": "No",
+   "source": "ONS productivity overview, Aug 2026",
+   "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/articles/ukproductivityintroduction/apriltojune2026andjanuarytomarch2026",
+   "note": "Real-time payroll measure. No way to attribute changes to AI."
+  },
+  {
+   "id": "s2",
+   "area": 5,
+   "area_name": "System effects",
+   "indicator": "Hiring in AI-exposed jobs",
+   "definition": "Change in online job adverts by occupational AI exposure",
+   "uk_figure": "High exposure about −15% vs low about −6%",
+   "status": "Partial",
+   "measures_use": "No",
+   "source": "Bank Underground (Bank of England staff blog), Aug 2026",
+   "source_url": "https://bankunderground.co.uk/2026/08/06/canaries-in-the-column-ai-exposure-and-the-uks-hiring-slowdown/",
+   "note": "2023 to early 2026 vs 2019. Correlation, not causation; not an official Bank view."
+  },
+  {
+   "id": "s3",
+   "area": 5,
+   "area_name": "System effects",
+   "indicator": "Headcount effects reported by firms",
+   "definition": "Firms (10+ employees) using AI that changed headcount because of AI",
+   "uk_figure": "6% reduced; under 1% increased (Sep 2026)",
+   "status": "Available",
+   "measures_use": "No",
+   "source": "ONS Business Insights and Conditions Survey",
+   "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+   "note": "Broadly stable over the past year."
+  },
+  {
+   "id": "s4",
+   "area": 5,
+   "area_name": "System effects",
+   "indicator": "Who is left behind",
+   "definition": "AI use for work or education, by age",
+   "uk_figure": "63% of 16–29s vs 3% of over-70s (Jun 2026)",
+   "status": "Available",
+   "measures_use": "Yes",
+   "source": "ONS Opinions and Lifestyle Survey, June 2026",
+   "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026",
+   "note": "Also a gap by sex in attitudes."
+  },
+  {
+   "id": "s5",
+   "area": 5,
+   "area_name": "System effects",
+   "indicator": "Public trust in AI",
+   "definition": "Adults who expect AI to benefit them, and who see more risks than benefits",
+   "uk_figure": "36% expect benefit; 38% see more risk (Jun 2026)",
+   "status": "Available",
+   "measures_use": "No",
+   "source": "ONS Opinions and Lifestyle Survey, June 2026",
+   "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026",
+   "note": "Risk view up from 25% in Aug 2024."
+  },
+  {
+   "id": "s6",
+   "area": 5,
+   "area_name": "System effects",
+   "indicator": "AI incidents and harms",
+   "definition": "Reported AI failures, complaints and harms",
+   "uk_figure": "No UK register",
+   "status": "Needs data-sharing",
+   "measures_use": "No",
+   "source": "Regulators such as ICO, FCA, Ofcom (proposed)",
+   "source_url": "",
+   "note": "No single place collects them."
+  }
+ ],
+ "bics_trend": [
+  {
+   "period": "2023-09",
+   "label": "Sep 2023",
+   "share_pct": 9
+  },
+  {
+   "period": "2025-06",
+   "label": "Jun 2025",
+   "share_pct": 21
+  },
+  {
+   "period": "2026-06",
+   "label": "Jun 2026",
+   "share_pct": 29
+  },
+  {
+   "period": "2026-09",
+   "label": "Sep 2026",
+   "share_pct": 30
+  }
+ ],
+ "bics_groups": [
+  {
+   "group": "Fewer than 10 employees",
+   "share_pct": 29
+  },
+  {
+   "group": "10 or more employees",
+   "share_pct": 38
+  },
+  {
+   "group": "250 or more employees",
+   "share_pct": 51
+  },
+  {
+   "group": "Information and communication",
+   "share_pct": 60
+  }
+ ],
+ "people_estimates": [
+  {
+   "estimate": "ONS: knowingly used AI, past 12 months",
+   "population": "Adults, Great Britain",
+   "period": "Jun 2026",
+   "share_pct": 67
+  },
+  {
+   "estimate": "Ofcom: say they use AI tools",
+   "population": "Adults 16+, UK",
+   "period": "Autumn 2025",
+   "share_pct": 54
+  },
+  {
+   "estimate": "Microsoft: used a generative AI product",
+   "population": "Ages 15–64, UK",
+   "period": "Q2 2026",
+   "share_pct": 43.7
+  }
+ ],
+ "age_use": [
+  {
+   "age": "16–29",
+   "share_pct": 63
+  },
+  {
+   "age": "30–49",
+   "share_pct": 60
+  },
+  {
+   "age": "50–69",
+   "share_pct": 27
+  },
+  {
+   "age": "70+",
+   "share_pct": 3
+  }
+ ],
+ "trust": [
+  {
+   "measure": "Agree AI will benefit them",
+   "date": "2023-11-01",
+   "share_pct": 38
+  },
+  {
+   "measure": "Agree AI will benefit them",
+   "date": "2025-08-01",
+   "share_pct": 41
+  },
+  {
+   "measure": "Agree AI will benefit them",
+   "date": "2026-06-01",
+   "share_pct": 36
+  },
+  {
+   "measure": "Say AI has more risks than benefits",
+   "date": "2023-11-01",
+   "share_pct": 26
+  },
+  {
+   "measure": "Say AI has more risks than benefits",
+   "date": "2024-08-01",
+   "share_pct": 25
+  },
+  {
+   "measure": "Say AI has more risks than benefits",
+   "date": "2026-06-01",
+   "share_pct": 38
+  }
+ ],
+ "readings": [
+  {
+   "value": "30%",
+   "text": "of UK businesses use at least one AI technology, up from 9% in September 2023.",
+   "source": "ONS business survey, Sep 2026",
+   "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026"
+  },
+  {
+   "value": "67%",
+   "text": "of adults in Great Britain knowingly used AI in the past year. Ofcom and Microsoft put it lower, because they ask different questions.",
+   "source": "ONS household survey, Jun 2026 (derived)",
+   "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026"
+  },
+  {
+   "value": "3%",
+   "text": "of over-70s use AI for work or study, against 63% of people aged 16 to 29.",
+   "source": "ONS household survey, Jun 2026",
+   "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026"
+  },
+  {
+   "value": "26 min",
+   "text": "a day saved per user, as reported by civil servants in a three-month Copilot trial. It is the nearest thing to an outcome measure the UK publishes, and it is self-reported.",
+   "source": "Cross-government Copilot experiment, Jun 2025",
+   "url": "https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report/microsoft-365-copilot-experiment-cross-government-findings-report-html"
+  }
+ ],
+ "extra_sources": [
+  {
+   "name": "Ofcom, Adults' Media Use and Attitudes Report 2026",
+   "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/media-literacy-research/adults/adults-media-use-and-attitudes-2026/adults-media-use-and-attitudes-2026-report.pdf",
+   "used": "Three answers to how many people use AI"
+  },
+  {
+   "name": "ONS Opinions and Lifestyle Survey, August 2025",
+   "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/August2025",
+   "used": "Public trust in AI over time"
+  },
+  {
+   "name": "ONS on X: business AI use, June 2026",
+   "url": "https://x.com/ONS/status/2072602164552249615",
+   "used": "June 2025 business AI use (derived)"
+  },
+  {
+   "name": "Minneapolis Fed: AI adoption in business (US Census BTOS)",
+   "url": "https://www.minneapolisfed.org/article/2026/ai-adoption-in-business-grows-steadily-but-unevenly",
+   "used": "Country comparison: United States"
+  },
+  {
+   "name": "Eurostat: Use of generative AI by individuals, 2025",
+   "url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/145512.pdf",
+   "used": "Country comparison: European Union"
+  },
+  {
+   "name": "CSO Ireland: AI use by enterprises, 2025",
+   "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isse/informationsocietystatistics-enterprises2025/artificialintelligence",
+   "used": "Country comparison: Ireland"
+  },
+  {
+   "name": "CSO Ireland: Understanding of AI and its use in Ireland (Aug 2026)",
+   "url": "https://www.cso.ie/en/csolatestnews/featurearticles/featurearticles2026/understandingofaianditsuseinireland-whatcsodatatellsus/",
+   "used": "Country comparison: Ireland and EU"
+  },
+  {
+   "name": "Statistics Canada: AI use by businesses, Q2 2026",
+   "url": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm",
+   "used": "Country comparison: Canada"
+  },
+  {
+   "name": "BritCham Singapore: IMDA Digital Economy Report 2025 coverage",
+   "url": "https://www.britcham.org.sg/news/ai-adoption-among-businesses-singapore-rises-digital-economy-accounts-larger-share-gdp",
+   "used": "Country comparison: Singapore"
+  },
+  {
+   "name": "ABS: Business adoption of AI accelerates in 2024–25",
+   "url": "https://www.abs.gov.au/media-centre/media-releases/business-adoption-artificial-intelligence-accelerates-2024-25",
+   "used": "Country comparison: Australia"
+  },
+  {
+   "name": "National AI Centre: AI adoption insights, Dec 2025 to Feb 2026",
+   "url": "https://www.ai.gov.au/news-and-insights/blog/ai-adoption-insights-december-2025-february-2026",
+   "used": "Country comparison: Australia"
+  }
+ ],
+ "areas": [
+  {
+   "area": 1,
+   "question": "Who could use AI?",
+   "reading": "a1",
+   "gap": "a3"
+  },
+  {
+   "area": 2,
+   "question": "Who does use it, and how much?",
+   "reading": "u1",
+   "gap": "u6"
+  },
+  {
+   "area": 3,
+   "question": "What is it used for?",
+   "reading": "t1",
+   "gap": "t4"
+  },
+  {
+   "area": 4,
+   "question": "What does it change?",
+   "reading": "o1",
+   "gap": "o2"
+  },
+  {
+   "area": 5,
+   "question": "Who gains, who loses, and what goes wrong?",
+   "reading": "s4",
+   "gap": "s6"
+  }
+ ],
+ "compare": {
+  "diffusion": [
+   {
+    "economy": "United Kingdom",
+    "h1_2025": 36.4,
+    "q2_2026": 43.7
+   },
+   {
+    "economy": "United States",
+    "h1_2025": 26.3,
+    "q2_2026": 33
+   },
+   {
+    "economy": "Ireland",
+    "h1_2025": 41.7,
+    "q2_2026": 49.9
+   },
+   {
+    "economy": "Canada",
+    "h1_2025": 33.5,
+    "q2_2026": 38.5
+   },
+   {
+    "economy": "Singapore",
+    "h1_2025": 58.6,
+    "q2_2026": 64.3
+   },
+   {
+    "economy": "Australia",
+    "h1_2025": 34.5,
+    "q2_2026": 40.7
+   },
+   {
+    "economy": "France",
+    "h1_2025": 40.9,
+    "q2_2026": 49.6
+   },
+   {
+    "economy": "Germany",
+    "h1_2025": 26.5,
+    "q2_2026": 32.3
+   }
+  ],
+  "countries": [
+   "United Kingdom",
+   "United States",
+   "European Union",
+   "Ireland",
+   "Canada",
+   "Singapore",
+   "Australia"
+  ],
+  "rows": [
+   {
+    "area": 1,
+    "question": "AI skills and training in firms"
+   },
+   {
+    "area": 2,
+    "question": "Businesses using AI"
+   },
+   {
+    "area": 2,
+    "question": "People using AI"
+   },
+   {
+    "area": 3,
+    "question": "What AI is used for"
+   },
+   {
+    "area": 4,
+    "question": "Measured outcomes of AI use"
+   },
+   {
+    "area": 5,
+    "question": "Effects on jobs"
+   },
+   {
+    "area": 5,
+    "question": "Public trust in AI"
+   }
+  ],
+  "cells": {
+   "United Kingdom": [
+    {
+     "status": "Not found",
+     "text": "Target of 7.5 million workers by 2030; no published progress.",
+     "url": null
+    },
+    {
+     "status": "Measured",
+     "text": "30% of businesses (Sep 2026).",
+     "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026"
+    },
+    {
+     "status": "Measured",
+     "text": "About 67% of adults knowingly used AI in the past year, Great Britain (Jun 2026).",
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026"
+    },
+    {
+     "status": "Measured",
+     "text": "Text generation 21%, visual content 19% of firms with 10+ staff (Sep 2026).",
+     "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026"
+    },
+    {
+     "status": "Partial",
+     "text": "26 minutes a day saved, self-reported, in a civil service trial (late 2024).",
+     "url": "https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report/microsoft-365-copilot-experiment-cross-government-findings-report-html"
+    },
+    {
+     "status": "Measured",
+     "text": "6% of AI-using firms with 10+ staff cut headcount because of AI (Sep 2026).",
+     "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026"
+    },
+    {
+     "status": "Measured",
+     "text": "36% expect AI to benefit them; 38% see more risk than benefit (Jun 2026).",
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026"
+    }
+   ],
+   "United States": [
+    {
+     "status": "Not found",
+     "text": "No official figure found.",
+     "url": null
+    },
+    {
+     "status": "Measured",
+     "text": "About 20% of firms use AI in some business function (early 2026).",
+     "url": "https://www.minneapolisfed.org/article/2026/ai-adoption-in-business-grows-steadily-but-unevenly"
+    },
+    {
+     "status": "Not found",
+     "text": "No official statistic found; independent polls only.",
+     "url": null
+    },
+    {
+     "status": "Measured",
+     "text": "Census business survey asks which business functions use AI.",
+     "url": "https://www.minneapolisfed.org/article/2026/ai-adoption-in-business-grows-steadily-but-unevenly"
+    },
+    {
+     "status": "Not found",
+     "text": "No official figure found.",
+     "url": null
+    },
+    {
+     "status": "Measured",
+     "text": "About 96% of AI-using firms report no change in headcount; 10% say AI now does tasks staff used to do (Apr 2026).",
+     "url": "https://www.minneapolisfed.org/article/2026/ai-adoption-in-business-grows-steadily-but-unevenly"
+    },
+    {
+     "status": "Not found",
+     "text": "No official figure found; independent polls only.",
+     "url": null
+    }
+   ],
+   "European Union": [
+    {
+     "status": "Not found",
+     "text": "No AI-specific official figure found.",
+     "url": null
+    },
+    {
+     "status": "Measured",
+     "text": "20% of enterprises with 10+ staff (2025).",
+     "url": "https://www.cso.ie/en/csolatestnews/featurearticles/featurearticles2026/understandingofaianditsuseinireland-whatcsodatatellsus/"
+    },
+    {
+     "status": "Measured",
+     "text": "33% of people aged 16–74 used generative AI in the past three months (early 2025).",
+     "url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/145512.pdf"
+    },
+    {
+     "status": "Measured",
+     "text": "Purposes of AI use are recorded in the EU enterprise survey.",
+     "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isse/informationsocietystatistics-enterprises2025/artificialintelligence"
+    },
+    {
+     "status": "Not found",
+     "text": "No official figure found.",
+     "url": null
+    },
+    {
+     "status": "Not found",
+     "text": "No official figure found.",
+     "url": null
+    },
+    {
+     "status": "Not found",
+     "text": "No official figure found.",
+     "url": null
+    }
+   ],
+   "Ireland": [
+    {
+     "status": "Not found",
+     "text": "No AI-specific official figure found.",
+     "url": null
+    },
+    {
+     "status": "Measured",
+     "text": "20.2% of enterprises with 10+ staff (2025).",
+     "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isse/informationsocietystatistics-enterprises2025/artificialintelligence"
+    },
+    {
+     "status": "Partial",
+     "text": "Covered by the EU household survey; Irish figure not checked here.",
+     "url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/145512.pdf"
+    },
+    {
+     "status": "Measured",
+     "text": "Data mining 10.8%, text generation 9.3% of enterprises (2025).",
+     "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isse/informationsocietystatistics-enterprises2025/artificialintelligence"
+    },
+    {
+     "status": "Not found",
+     "text": "No official figure found.",
+     "url": null
+    },
+    {
+     "status": "Not found",
+     "text": "No official figure found.",
+     "url": null
+    },
+    {
+     "status": "Partial",
+     "text": "OECD Trust Survey 2025: almost three-quarters not confident government protects personal data when using AI.",
+     "url": "https://www.cso.ie/en/csolatestnews/featurearticles/featurearticles2026/understandingofaianditsuseinireland-whatcsodatatellsus/"
+    }
+   ],
+   "Canada": [
+    {
+     "status": "Measured",
+     "text": "32% of AI-using businesses trained staff in AI (Q2 2026).",
+     "url": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm"
+    },
+    {
+     "status": "Measured",
+     "text": "19.2% of businesses used AI to produce goods or services (Q2 2026).",
+     "url": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm"
+    },
+    {
+     "status": "Not found",
+     "text": "Not checked here.",
+     "url": null
+    },
+    {
+     "status": "Measured",
+     "text": "Data analytics 37%, text analytics 35% of AI-using businesses (Q2 2026).",
+     "url": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm"
+    },
+    {
+     "status": "Not found",
+     "text": "Statistics Canada reports no productivity measure.",
+     "url": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm"
+    },
+    {
+     "status": "Partial",
+     "text": "44% of AI-using businesses changed training or staffing; headcount effects unclear.",
+     "url": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm"
+    },
+    {
+     "status": "Not found",
+     "text": "Not checked here.",
+     "url": null
+    }
+   ],
+   "Singapore": [
+    {
+     "status": "Not found",
+     "text": "No AI-specific official figure found.",
+     "url": null
+    },
+    {
+     "status": "Measured",
+     "text": "23.5% of enterprises (2025); 70% of larger firms.",
+     "url": "https://www.britcham.org.sg/news/ai-adoption-among-businesses-singapore-rises-digital-economy-accounts-larger-share-gdp"
+    },
+    {
+     "status": "Measured",
+     "text": "About 86% of workers used AI at work.",
+     "url": "https://www.britcham.org.sg/news/ai-adoption-among-businesses-singapore-rises-digital-economy-accounts-larger-share-gdp"
+    },
+    {
+     "status": "Not found",
+     "text": "Not found in the figures reviewed.",
+     "url": null
+    },
+    {
+     "status": "Partial",
+     "text": "About a third of AI users spend less time on tasks; benefits are self-reported.",
+     "url": "https://www.britcham.org.sg/news/ai-adoption-among-businesses-singapore-rises-digital-economy-accounts-larger-share-gdp"
+    },
+    {
+     "status": "Not found",
+     "text": "No official figure found.",
+     "url": null
+    },
+    {
+     "status": "Not found",
+     "text": "Not checked here.",
+     "url": null
+    }
+   ],
+   "Australia": [
+    {
+     "status": "Not found",
+     "text": "No official figure found.",
+     "url": null
+    },
+    {
+     "status": "Measured",
+     "text": "12% of businesses (2024–25, ABS); 43% of SMEs in a government-commissioned monthly tracker.",
+     "url": "https://www.abs.gov.au/media-centre/media-releases/business-adoption-artificial-intelligence-accelerates-2024-25"
+    },
+    {
+     "status": "Not found",
+     "text": "No official figure found.",
+     "url": null
+    },
+    {
+     "status": "Measured",
+     "text": "Content generation and data analytics lead among SME adopters (tracker).",
+     "url": "https://www.ai.gov.au/news-and-insights/blog/ai-adoption-insights-december-2025-february-2026"
+    },
+    {
+     "status": "Not found",
+     "text": "No figure found in the tracker summary.",
+     "url": "https://www.ai.gov.au/news-and-insights/blog/ai-adoption-insights-december-2025-february-2026"
+    },
+    {
+     "status": "Not found",
+     "text": "No official figure found.",
+     "url": null
+    },
+    {
+     "status": "Not found",
+     "text": "Not checked here.",
+     "url": null
+    }
+   ]
+  },
+  "national": [
+   {
+    "country": "United Kingdom",
+    "figure": "30%",
+    "measures": "Businesses using at least one AI technology",
+    "population": "All businesses surveyed",
+    "period": "Sep 2026",
+    "source": "ONS Business Insights and Conditions Survey",
+    "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026"
+   },
+   {
+    "country": "United States",
+    "figure": "About 20%",
+    "measures": "Firms using AI in any business function",
+    "population": "US employer businesses",
+    "period": "Early 2026",
+    "source": "US Census Business Trends and Outlook Survey, via Minneapolis Fed",
+    "url": "https://www.minneapolisfed.org/article/2026/ai-adoption-in-business-grows-steadily-but-unevenly"
+   },
+   {
+    "country": "European Union",
+    "figure": "20%",
+    "measures": "Enterprises using AI",
+    "population": "Enterprises with 10+ staff",
+    "period": "2025",
+    "source": "Eurostat enterprise ICT survey, as reported by CSO",
+    "url": "https://www.cso.ie/en/csolatestnews/featurearticles/featurearticles2026/understandingofaianditsuseinireland-whatcsodatatellsus/"
+   },
+   {
+    "country": "Ireland",
+    "figure": "20.2%",
+    "measures": "Enterprises using AI",
+    "population": "Enterprises with 10+ staff",
+    "period": "2025",
+    "source": "CSO Information Society Statistics: Enterprises",
+    "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isse/informationsocietystatistics-enterprises2025/artificialintelligence"
+   },
+   {
+    "country": "Canada",
+    "figure": "19.2%",
+    "measures": "Businesses using AI to produce goods or services, past 12 months",
+    "population": "Canadian businesses",
+    "period": "Q2 2026",
+    "source": "Statistics Canada",
+    "url": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm"
+   },
+   {
+    "country": "Singapore",
+    "figure": "23.5%",
+    "measures": "Enterprises adopting AI",
+    "population": "Singapore enterprises",
+    "period": "2025",
+    "source": "IMDA Singapore Digital Economy Report, as reported by BritCham",
+    "url": "https://www.britcham.org.sg/news/ai-adoption-among-businesses-singapore-rises-digital-economy-accounts-larger-share-gdp"
+   },
+   {
+    "country": "Australia",
+    "figure": "12%",
+    "measures": "Businesses using AI in the workplace",
+    "population": "Australian businesses",
+    "period": "2024–25",
+    "source": "ABS Characteristics of Australian Business",
+    "url": "https://www.abs.gov.au/media-centre/media-releases/business-adoption-artificial-intelligence-accelerates-2024-25"
+   }
+  ]
+ }
+}

@@ -1,0 +1,170 @@
+[
+ {
+  "name": "Ofcom Connected Nations, Spring 2026, as reported by ISPreview",
+  "url": "https://www.ispreview.co.uk/index.php/2026/05/gigabit-broadband-covers-89-percent-of-uk-premises-ofcom-spring-2026-data.html",
+  "used": [
+   "Gigabit connectivity"
+  ]
+ },
+ {
+  "name": "DSIT Artificial Intelligence sector study 2024 (Sep 2025)",
+  "url": "https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2024/artificial-intelligence-sector-study-2024",
+  "used": [
+   "AI supply base",
+   "AI sector output"
+  ]
+ },
+ {
+  "name": "DSIT and industry AI Skills Partnership (Jun 2025)",
+  "url": "https://www.gov.uk/government/news/tech-giants-join-government-to-kick-off-plans-to-boost-british-worker-ai-skills",
+  "used": [
+   "AI skills training"
+  ]
+ },
+ {
+  "name": "ONS Business Insights and Conditions Survey, wave 165",
+  "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+  "used": [
+   "Businesses using AI",
+   "What businesses use AI for",
+   "Roles most affected",
+   "Headcount effects reported by firms"
+  ]
+ },
+ {
+  "name": "ONS Opinions and Lifestyle Survey, June 2026",
+  "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026",
+  "used": [
+   "Adults using AI",
+   "Where adults use AI",
+   "Who is left behind",
+   "Public trust in AI"
+  ]
+ },
+ {
+  "name": "Microsoft AI Diffusion Report, Q2 2026",
+  "url": "https://github.com/microsoft/ai-diffusion-report",
+  "used": [
+   "Working-age population using AI (telemetry)"
+  ]
+ },
+ {
+  "name": "National Audit Office survey of 87 bodies (Mar 2024)",
+  "url": "https://www.nao.org.uk/wp-content/uploads/2024/03/use-of-artificial-intelligence-in-government-summary.pdf",
+  "used": [
+   "Public bodies deploying AI"
+  ]
+ },
+ {
+  "name": "GOV.UK Data in Government blog",
+  "url": "https://dataingovernment.blog.gov.uk/2025/05/08/making-the-algorithmic-transparency-recording-standard-atrs-mandatory-across-government/",
+  "used": [
+   "Public sector algorithmic tools disclosed"
+  ]
+ },
+ {
+  "name": "Anthropic Economic Index (global and country patterns)",
+  "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+  "used": [
+   "Augmentation vs automation"
+  ]
+ },
+ {
+  "name": "Cross-government Microsoft 365 Copilot experiment, 20,000 licences (Jun 2025)",
+  "url": "https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report/microsoft-365-copilot-experiment-cross-government-findings-report-html",
+  "used": [
+   "Time saved in real use"
+  ]
+ },
+ {
+  "name": "ONS productivity overview, Aug 2026",
+  "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/articles/ukproductivityintroduction/apriltojune2026andjanuarytomarch2026",
+  "used": [
+   "Labour productivity"
+  ]
+ },
+ {
+  "name": "Bank Underground (Bank of England staff blog), Aug 2026",
+  "url": "https://bankunderground.co.uk/2026/08/06/canaries-in-the-column-ai-exposure-and-the-uks-hiring-slowdown/",
+  "used": [
+   "Hiring in AI-exposed jobs"
+  ]
+ },
+ {
+  "name": "Ofcom, Adults' Media Use and Attitudes Report 2026",
+  "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/media-literacy-research/adults/adults-media-use-and-attitudes-2026/adults-media-use-and-attitudes-2026-report.pdf",
+  "used": [
+   "Three answers to how many people use AI"
+  ]
+ },
+ {
+  "name": "ONS Opinions and Lifestyle Survey, August 2025",
+  "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/August2025",
+  "used": [
+   "Public trust in AI over time"
+  ]
+ },
+ {
+  "name": "ONS on X: business AI use, June 2026",
+  "url": "https://x.com/ONS/status/2072602164552249615",
+  "used": [
+   "June 2025 business AI use (derived)"
+  ]
+ },
+ {
+  "name": "Minneapolis Fed: AI adoption in business (US Census BTOS)",
+  "url": "https://www.minneapolisfed.org/article/2026/ai-adoption-in-business-grows-steadily-but-unevenly",
+  "used": [
+   "Country comparison: United States"
+  ]
+ },
+ {
+  "name": "Eurostat: Use of generative AI by individuals, 2025",
+  "url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/145512.pdf",
+  "used": [
+   "Country comparison: European Union"
+  ]
+ },
+ {
+  "name": "CSO Ireland: AI use by enterprises, 2025",
+  "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isse/informationsocietystatistics-enterprises2025/artificialintelligence",
+  "used": [
+   "Country comparison: Ireland"
+  ]
+ },
+ {
+  "name": "CSO Ireland: Understanding of AI and its use in Ireland (Aug 2026)",
+  "url": "https://www.cso.ie/en/csolatestnews/featurearticles/featurearticles2026/understandingofaianditsuseinireland-whatcsodatatellsus/",
+  "used": [
+   "Country comparison: Ireland and EU"
+  ]
+ },
+ {
+  "name": "Statistics Canada: AI use by businesses, Q2 2026",
+  "url": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm",
+  "used": [
+   "Country comparison: Canada"
+  ]
+ },
+ {
+  "name": "BritCham Singapore: IMDA Digital Economy Report 2025 coverage",
+  "url": "https://www.britcham.org.sg/news/ai-adoption-among-businesses-singapore-rises-digital-economy-accounts-larger-share-gdp",
+  "used": [
+   "Country comparison: Singapore"
+  ]
+ },
+ {
+  "name": "ABS: Business adoption of AI accelerates in 2024–25",
+  "url": "https://www.abs.gov.au/media-centre/media-releases/business-adoption-artificial-intelligence-accelerates-2024-25",
+  "used": [
+   "Country comparison: Australia"
+  ]
+ },
+ {
+  "name": "National AI Centre: AI adoption insights, Dec 2025 to Feb 2026",
+  "url": "https://www.ai.gov.au/news-and-insights/blog/ai-adoption-insights-december-2025-february-2026",
+  "used": [
+   "Country comparison: Australia"
+  ]
+ }
+]
